@@ -5,6 +5,7 @@ def create_app():       #funcion que se ejecuta siempre en un comienzo con Flask
     app = Flask(__name__)
 
     app.config.from_mapping(        #llaves que usaremos dentro de la app
+        FROM_EMAIL=os.environ.get('FROM_EMAIL'),
         DATABASE_PORT=os.environ.get('FLASK_DATABASE_PORT'),
         SENDGRID_KEY=os.environ.get('SENDGRID_API_KEY'),
         SECRET_KEY=os.environ.get('SECRET_KEY'),
