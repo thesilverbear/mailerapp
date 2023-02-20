@@ -9,6 +9,7 @@ def create_app():       #funcion que se ejecuta siempre en un comienzo con Flask
         DATABASE_USER=os.environ.get('FLASK_DATABASE_USER'),
         DATABASE_PASSWORD=os.environ.get('FLASK_DATABASE_PASSWORD'),
         DATABASE=os.environ.get('FLASK_DATABASE'),
+        FROM_EMAIL=os.environ.get('FROM_EMAIL'),
         DATABASE_PORT=os.environ.get('FLASK_DATABASE_PORT'),
         SENDGRID_KEY=os.environ.get('SENDGRID_API_KEY'),
         SECRET_KEY=os.environ.get('SECRET_KEY')
