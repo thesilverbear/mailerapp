@@ -62,7 +62,7 @@ form input {
 .button {
     font-size: 14px;
     transition: background-color 0.5s ease;
-    background-color: #674DD4;
+    background-color: #70A9AC;
     color: #fff; 
     align-self: center;
     padding: 10px 15px; 
@@ -72,7 +72,7 @@ form input {
 }
 
 .button:hover {
-    background-color: #7B62E3;
+    background-color: #70A9AC;
 }
 
 
